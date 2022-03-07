@@ -1,5 +1,11 @@
 # Recommendation Systems
 
+[![Website](https://img.shields.io/badge/Site%20Pessoal-RGivisiez-red?style=flat&for-the-badge&logo=github)][mysite]
+
+> The notebook is better visualized using Google Colab:
+> 
+> <a href="https://colab.research.google.com/github/RGivisiez/recommendation-systems/blob/main/Recommendation_system.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 Nowadays the quantity of information generated easily surpasses our capacity to absorb it, this leads to a problem of knowing which information is relevant or not to be consumed. Therefore, recommendation systems play an important role in filtering information before any user can consume it, whether by recommending movies to be watched or filtering research on Google. In this project we will construct two movies recommendation systems based on the concept of collaborative filtering, i.e., we will group similar users based on their preferences and then recommend movies. To do so, we will use two different algorithms Nearest Neighbor (NN) and Matrix Factorization.
 
 ### Relevant results and comments about the algorithms
@@ -23,3 +29,5 @@ However, the naive algorithms implemented here are biased, given too much import
 |:--:| 
 | *t-SNE from the embedding matrix used in the Factorization Matrix method.* |
 Notice that there are two clusters, one separating highly rated movies (points in blue) from the lowest rated movies (points in red) and one separating movies that were rated more often (big circles) from the others (small circles).
+
+[mysite]: https://rgivisiez.github.io/
