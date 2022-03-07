@@ -2,7 +2,7 @@
 
 Nowadays the quantity of information generated easily surpasses our capacity to absorb it, this leads to a problem of knowing which information is relevant or not to be consumed. Therefore, recommendation systems play an important role in filtering information before any user can consume it, whether by recommending movies to be watched or filtering research on Google. In this project we will construct two movies recommendation systems based on the concept of collaborative filtering, i.e., we will group similar users based on their preferences and then recommend movies. To do so, we will use two different algorithms Nearest Neighbor (NN) and Matrix Factorization.
 
-## Relevant results and comments about the algorithms
+### Relevant results and comments about the algorithms
 
 As can be seen above, the NN algorithm can make good recommendations based on a movie already watched by a user:
 
